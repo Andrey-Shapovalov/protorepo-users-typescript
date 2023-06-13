@@ -1,19 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "declaration": true,
+    "target": "es5",
     "module": "commonjs",
-    "sourceMap": true,
-    "allowJs": true,
-    "outDir": "lib",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true
   },
-  "include": [
-    "index.ts",
-    "grpc"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
